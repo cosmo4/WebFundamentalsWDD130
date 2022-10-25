@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(249, 134, 153);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+section p {
+    color: white;
+    max-width: 500px;
+    display:inline-block;
+}
+h1:hover {
+    color:black;
+}
+h2 {
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+img {
+    
+    width: 200px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+p {
+    text-align: center;
+}
+div p {
+    color: white;
+    font-size: 40px;
+    max-width: 350px;
+    display:inline-block;
+}
+ul {
+    display:inline-block;
+    list-style: none;
+    text-align: left;
+    font-weight: 900;
+    line-height: 30px;
+    
+}
+footer {
+    max-width: 350px;
+    display:inline-block;
+    padding-bottom: 50px;
+}

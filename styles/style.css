@@ -1,0 +1,52 @@
+body {
+    
+  }
+
+  nav, footer {
+    background-color: rgb(60, 221, 45);
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  a {
+    color: white;
+    margin: 40px;
+    font-size: 2em;
+  }
+  a:hover {
+    background-color: white;
+    color: rgb(60, 221, 45);
+}
+  h1 {
+    color:rgb(60, 221, 45);
+    text-align: center;
+  }
+  img {
+    width: 80%;
+    border: 4px solid rgb(60, 221, 45);
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  p {
+    padding: 10px;
+  }
+  main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+  
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+  background-color: white;
+  color: rgb(60, 221, 45);
+}
+footer p {
+  background-color: rgb(60, 221, 45);
+  font-size: 20px;
+  margin: 20px auto;
+}
