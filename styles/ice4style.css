@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bungee+Spice&family=Open+Sans&family=Rubik:wght@300&display=swap');
+
+.card{
+    display:grid;
+    grid-template-rows: 205px 1fr 80px;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.time {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.views {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.comments {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+img {
+    width: 300px;
+}
