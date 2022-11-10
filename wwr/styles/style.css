@@ -138,37 +138,61 @@
     font-size: 0.8em;
     padding-bottom: 15px;
 }
+
+
 /*faq page css*/
 .faqcontent {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 75px;
 
 }
 .faqcontent h1 {
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 1/5;
+    margin-top: 0;
+    margin-bottom: 75px;
+    font-family: var(--heading-font);
 }
 .faq1 {
     display:grid;
-    grid-template-rows: 150px 150px 150px;
-    grid-column:1/4;
-    grid-row:2/3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column:1/5;
 }
 .faq1 img {
     width:100%;
-    grid-row:1/4;
-    grid-column: 3/4;
+    grid-row: 2/5;
+    grid-column: 4/5;
+}
+.faq1 h4 {
+    margin: 0px;
+    grid-column:1/4;
 }
 .faq1 p {
-    grid-row:1/4;
-    grid-column:1/3;
-}
-
-.faq2 {
-    grid-template-rows: 150px 150px 150px;
+    margin: 0px;
     grid-column:1/4;
-    grid-row: 3/4;
+    font-family: var(--paragraph-font);
+}
+.faq2 {
+    display:grid;
     
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column:1/5;
+}
+.faq2 img {
+    width:100%;
+    grid-row: 2/5;
+    grid-column: 1/2;
+    padding-right:40px;
+}
+.faq2 h4 {
+    margin: 0px;
+    grid-column:2/5;
+}
+.faq2 p {
+    margin: 0px;
+    grid-column:2/5;
+    font-family: var(--paragraph-font);
 }
 
 body {
